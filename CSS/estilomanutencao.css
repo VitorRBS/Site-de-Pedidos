@@ -1,0 +1,39 @@
+div{
+    box-sizing: border-box; 
+    text-align: center;
+    text-decoration: none;
+   font-size: 45px;
+   color: #0070FF;
+   border-width: 15px;
+   
+   }
+   .topo{
+    padding: 150px;
+   }
+   .base{
+    padding: 300px;
+   }
+   body{
+    margin: 0;
+  background-color: #1a2b47;
+  }
+  form{
+    font-size: 35px;
+    width: 100%;
+   text-align: center;
+    display: flex;
+    flex-direction: column ;
+  }
+  label{
+    padding: 15px;
+    text-align: left;
+  }
+  
+  input {
+    border: none;
+    font-size: 35px;
+    border-bottom: 2px solid #0070FF;
+    background-color: #1a2b47;
+    user-select: none;
+
+  }
