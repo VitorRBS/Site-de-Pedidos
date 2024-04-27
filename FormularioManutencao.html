@@ -7,19 +7,39 @@
     <title>Manutenção</title>
 </head>
 <body> 
-        <form action="">
+    <header class="manutencao-header"> Abertura de Chamado de Manutenção:</header>
+       <div class="box">
+        <form action="" class="main-form">
+        <div class="form-group">
         <label for="campo_nome">Nome:</label>
-        <input id="campo_nome" type="text" placeholder="Insira seu Nome">
-        <br>
+        <input id="campo_nome" type="text" placeholder="Insira seu Nome" alt="Nome">
+        </div>
+        <div class="form-group">
         <label for="campo_email">Email:</label>
-        <input id="campo_email" type="email" placeholder="Insira seu Email">
-        <br>
+        <input id="campo_email" type="email" placeholder="Insira seu Email" alt="Email">
+        </div>
+        <div class="form-group">
+        <label for="campo_data">Data Abertura:</label>
+        <input id="campo_data" type="date" alt="Data"> 
+    </div>
+    <div class="form-group">
+       Local:
+        <SELECT>
+            <option value="Local" disabled  >Informe o Local:</option>
+            <option value="cantina" >Cantina</option>
+            <option value="sala">Sala</option>
+            <option value="guarita">Guarita</option>
+        </SELEct>   
+    </div>   
+                <div class="form-group">
         <label for="campo_desc">Descricao:</label>
-        <input id="campo_desc" type="text" placeholder="Insira sua Descricao">
-
+        <textarea id="textarea" name="Descricao" id="campo_desc" placeholder="Insira sua Descrição" alt="Descricao"></textarea>
+    </div>
+    <input type="submit">
         </form>
-    <a href="index.html">Voltar</a>
-   </div>
+    </div>
+    <a href="index.html">Voltar</a> 
+   
   
 </body>
 </html>
